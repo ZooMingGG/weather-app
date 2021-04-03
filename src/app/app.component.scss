@@ -1,0 +1,43 @@
+.weather-card {
+    background: linear-gradient(90deg, rgba(97,2,2,1) 0%, rgba(145,104,14,1) 44%, rgba(134,175,5,1) 100%);
+    padding: 20px 0 0 0;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+
+    .city-input {
+        width: 320px;
+        height: 40px;
+        padding: 25px 20px;
+        outline: none;
+        border: 3px solid rgb(204, 133, 52);
+        border-radius: 5px;
+        font-size: 32px;
+        color: rgb(194, 90, 20);
+    }
+
+    .info {
+        margin: 40px 0;
+
+        .location {
+            font-size: 34px;
+            margin: 0 0 10px 0;
+        }
+    }
+
+    .weather-info {
+        .temperature {
+            font-size: 92px;
+        }
+
+        .description {
+            margin: 15px 0 10px 0;
+            font-size: 42px;
+        }
+
+        .min-max {
+            font-size: 32px;
+        }
+    }
+}
